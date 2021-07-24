@@ -9,4 +9,4 @@ No tuve problemas para hacer la aplicación, sin embargo estoy consiente de que 
 
 Me apoyé un poco de los recursos de esta página https://www.w3schools.com/js/default.asp para recapitular como funcionaban las funciones y sus parámetros.
 
-La aplicacion la subi a netlify: https://ejercicio-programacion.netlify.app/
+La aplicación la subi a netlify: https://ejercicio-programacion.netlify.app/
