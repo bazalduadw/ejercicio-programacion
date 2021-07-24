@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso de Reclutiamiento - Ejercicio</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="contenedor">
+
+            <div class="contenedor-header">
+                <div class="img-logo">
+                    <img src="images/mi logo.png" alt="Luis Bazaldua Desarrollador Web">
+                </div>
+
+                <nav class="menu-principal">
+                    <a href="https://www.bazalduaweb.com/">Ver Portafolio</a>
+                    <a href="https://github.com/bazalduadw/ejercicio-programacion">Ver en GitHub</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <div class="contenedor">
+
+                <div class="instrucciones">
+                    <h2>Ejercicio de programación</h2>
+                    <p>Ingresa un número en el campo y da click en el botón que dice Resultado, el numero que ingreses se multiplica por 3 y automáticamente se mostrara una mensaje con el resultado y si el resultado es par o impar</p>
+                </div>
+
+
+                <input type="number" class="input-number" id="numero1" placeholder="Ingresa un numero">
+                <br>
+                <input type="button" onclick="multiplicacion()" class="btn" value="Resultado">
+                <br>
+                
+                <div class="contenido-resultado">
+                <h2 class="titulo-res">El resultado se mostrara aqui</h2>
+                
+                <h2 id="resultado"></h2>
+                <h3 id="mensaje"></h3>
+                </div>
+
+
+        </div>
+
+
+        
+
+    </main>
+
+
+
+    <footer>
+
+        <div class="contenedor">
+
+            <div class="img-logo-footer">
+                <img src="images/mi logo.png" alt="">
+            </div>
+
+            <nav class="menu-footer">
+                <a href="https://www.bazalduaweb.com/">Ver Portoflio</a>
+                <a href="https://github.com/bazalduadw/ejercicio-programacion">Ver en GitHub</a>
+            </nav>
+        </div>
+
+    </footer>
+
+    <!-- js code -->
+    <script src="js/main.js"></script>
+
+</body>
